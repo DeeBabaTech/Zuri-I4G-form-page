@@ -1,0 +1,114 @@
+body {
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+    padding: 40px 0;
+}
+
+.main {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
+.main-left, .main-right {
+    width: 50%;
+
+}
+
+div h1 {
+    font-size: 45px;
+    color: white;
+    line-height: 55px;
+    font-weight: 800;
+}
+div p {
+    color: white;
+}
+
+.form-top{
+    background-color: hsl(248, 32%, 49%);
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow:  0px 8px 10px hsl(249, 10%, 26%);
+}
+.form-main {
+    background-color: whitesmoke;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+        
+}
+div input {
+    width: 80%;
+    padding: 15px 32px;
+    margin: 5px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    outline-color: hsl(248, 32%, 49%);
+    border-color: rgb(215, 209, 209);
+    border-style: ridge;
+}
+.form-claim {
+    background-color: hsl(154, 59%, 51%);
+    width: 89%;
+    padding: 15px 10px;
+    margin: 15px auto;
+    border-radius: 5px; 
+    box-shadow:  0px 8px 10px hsl(154, 60%, 77%);
+    cursor: pointer;  
+}
+
+div span {
+    font-weight: 800;
+}
+.form-terms {
+    color: rgb(181, 173, 173);
+    font-size: 12px;
+}
+p span {
+    color: hsl(0, 100%, 74%);
+    cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+    body {
+        background-image: url(images/bg-intro-mobile.png);
+        padding: 70px 0;
+    }
+    .main {
+        display: block;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+    .main-left, .main-right {
+        width: 100%;
+    }
+    div h1 {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 800;
+    }
+    div p {
+        font-size: 17px;
+    }
+    .form-top {
+        margin-top: 70px;
+        margin-bottom: 25px;
+        padding: 20px 80px;
+    }
+    div input {
+        width: 80%;
+        padding: 15px 20px;
+        font-weight: 600;
+    }
+    .form-terms {
+        padding: 0 20px;
+    }
+}
